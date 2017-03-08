@@ -16,7 +16,7 @@ dependencies {
 ```
 4. Now you should add your `Client Key` and `Application Id` to the `AndroidManifest.xml` file in *Application* scope:
 
-* ```xml
+```xml
  <meta-data
             android:name="ir.weclick.APPLICATION_ID"
             android:value="YOUR_APPLICATION_IP"/>
