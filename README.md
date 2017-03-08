@@ -19,8 +19,17 @@ dependencies {
 ```xml
  <meta-data
             android:name="ir.weclick.APPLICATION_ID"
-            android:value="YOUR_APPLICATION_IP"></meta-data>
-        <meta-data
+            android:value="YOUR_APPLICATION_IP"/>
+  <meta-data
             android:name="ir.weclick.CLIENT_KEY"
             android:value="YOUR_CLIENT_KEY" />
 ```
+4. Add following lines for permissions(befor *Application* scope):
+
+```xml
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
+
