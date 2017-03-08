@@ -16,15 +16,15 @@ dependencies {
 ```
 4. Now you should add your `Client Key` and `Application Id` to the `AndroidManifest.xml` file in *Application* scope:
 
-```xml
+* ```xml
  <meta-data
             android:name="ir.weclick.APPLICATION_ID"
             android:value="YOUR_APPLICATION_IP"/>
   <meta-data
             android:name="ir.weclick.CLIENT_KEY"
             android:value="YOUR_CLIENT_KEY" />
-```
-4. Add following lines for permissions(befor *Application* scope):
+ ```
+5. Add following lines for permissions(befor *Application* scope):
 
 ```xml
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
