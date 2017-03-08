@@ -35,6 +35,8 @@ dependencies {
 
 ##Initilizing SDK
 
+If your app covering device with API 23 and above you should check permissions. after permissons granted initialize Wecclick SDK:
+
 ```java
 public class MainActivity extends AppCompatActivity {
 
@@ -73,5 +75,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+```
+
+but if your target API is below 23 just add this line in your `onCreate` method of Starting(with Main And Luncher intent-filter) Ativity:
+
+```java
+    Weclick.initialize(getApplicationContext());
+
 ```
 
