@@ -1,2 +1,3 @@
-# Weclick_sdk_sample
-Weclick SDK sample project and tutorial!
+# Weclick SDK Installation
+
+The following tutorial will guide you to Install Weclick SDK via *jar* file.
