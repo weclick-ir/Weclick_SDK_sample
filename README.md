@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-but if your target API is below 23 just add this line in your `onCreate` method of Starting(with Main And Luncher intent-filter) Ativity:
+but if your target API is below 23 just add this line in your starting method ( `onCreate`  ) of Ativity:
 
 ```java
     Weclick.initialize(getApplicationContext());
