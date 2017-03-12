@@ -4,7 +4,7 @@ The following tutorial will guide you to Install Weclick SDK via *jar* file.
 
 ##Getting Started
 
-* First of all download latest version of sdk *jar* file from [release](https://github.com/makbn/Weclick_sdk_sample/releases) tab.
+* First of all download latest version of sdk *jar* file from [release](https://github.com/weclick-ir/Weclick_SDK_sample/releases) tab.
 * Move this file to */libs* folder of your project.
 * Add this following lines to your **app level module** `buil.gradle` file dependencies:
 
