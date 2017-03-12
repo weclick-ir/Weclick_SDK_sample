@@ -35,7 +35,7 @@ dependencies {
 
 ##Initilizing SDK
 
-If your app covering device with API 23 and above you should check permissions. after permissons granted initialize Wecclick SDK:
+If your app covering device with API 23 and above you should check permissions. after permissons granted initialize Weclick SDK:
 
 ```java
 public class MainActivity extends AppCompatActivity {
