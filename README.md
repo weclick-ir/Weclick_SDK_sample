@@ -2,7 +2,7 @@
 
 The following tutorial will guide you to Install Weclick SDK via *jar* file.
 
-##Getting Started
+## Getting Started
 
 * First of all download latest version of sdk *jar* file from [release](https://github.com/weclick-ir/Weclick_SDK_sample/releases) tab.
 * Move this file to */libs* folder of your project.
@@ -33,7 +33,7 @@ dependencies {
   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 ```
 
-##Initilizing SDK
+## Initilizing SDK
 
 If your app covering device with API 23 and above you should check permissions. after permissons granted initialize Weclick SDK:
 
